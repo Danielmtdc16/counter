@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E4EBF2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #056CF2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.elements {
+    display: flex;
+    align-items: center;
+}
+
+.container .elements #number {
+    color: #EAE6E3;
+    font-size: 100px;
+    text-align: center;
+    min-width: 180px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+button:hover {
+    opacity: .8;
+}
+
+.count-button {
+    background-color: #63A1F2;
+    font-size: 40px;
+    margin-right: 1rem;
+    height: 80px;
+    width: 80px;
+}
+.count-button:last-child {
+    margin-right: 0rem;
+    margin-left: 1rem;
+}
+
+.reset-button {
+    background-color: #63A1F2;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px 0;
+}
